@@ -18,13 +18,7 @@ const studentSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    Address:{
-        type:String,
-        required:true
-    },
-    phone:{
-        type:Number,
-        required:true
-    }
+  
+   
 });
 module.exports=mongoose.model("Student",studentSchema);
